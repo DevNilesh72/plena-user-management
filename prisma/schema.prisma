@@ -20,4 +20,5 @@ model User {
   username  String
   birthdate  String
   age  Int
+  blocked  Boolean    @default(false)
 }
